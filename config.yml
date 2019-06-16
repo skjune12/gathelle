@@ -1,0 +1,9 @@
+---
+- username: admin
+  hosts:
+  - hostname: rt1.myhome.net
+    address: 192.168.0.1
+    set: true
+  - hostname: sw1.myhome.net
+    address: 192.168.0.2
+    set: false
